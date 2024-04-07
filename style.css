@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.sec1 {
+  background-image: url(img/Rectangle\ 26.png);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+.sec1 .logo {
+  margin-left: 50px;
+}
+.sec1 header {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.sec1 header .icon {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.sec1 nav {
+  display: flex;
+  gap: 30px;
+}
+.sec1 nav a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.sec1 .container {
+  width: 30%;
+  align-items: center;
+  margin: 100px 0 0 200px;
+}
+.sec1 .container .text {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.sec1 .container .icon2 {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  align-items: center;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+.sec1 .overall {
+  display: flex;
+  gap: 15px;
+  margin: 160px 0 0 100px;
+}
+.sec1 .overall .box {
+  border-radius: 5px;
+  background-color: #8D86C9;
+  padding: 20px;
+  width: 300px;
+}
+.sec1 .overall .box .flex {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.sec2 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.sec2 .overall2 {
+  display: flex;
+  gap: 20px;
+  margin: 100px 0 0 70px;
+}
+
+.sec3 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.sec3 .overall3 {
+  display: flex;
+  margin: 0px 0 0 150px;
+  position: relative;
+}
+.sec3 .overall3 p {
+  letter-spacing: 1px;
+}
+.sec3 .overall3 .photo {
+  margin: 80px 100px 0 0px;
+  position: absolute;
+}
+.sec3 .overall3 .box2 {
+  border-radius: 5px;
+  background-color: #F7ECE1;
+  width: 650px;
+  padding: 40px;
+  height: 650px;
+  margin: 0px 0 0 500px;
+}
+.sec3 .overall3 .box2 h1 {
+  font-size: 40px;
+}
+.sec3 .overall3 .box2 h2 {
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+.sec3 .overall3 .text2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sec4 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.sec4 .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.sec4 .head .icon3 {
+  width: 70px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.sec4 .head .icon3 .icon4 {
+  background-color: #8D86C9;
+  border-radius: 5px;
+  padding: 10px;
+}
+.sec4 .overall4 {
+  display: flex;
+  gap: 40px;
+  margin: 50px;
+}
+.sec4 .overall4 .human {
+  text-align: center;
+}
+.sec4 .overall4 .human h1 {
+  padding: 30px 0 30px 0;
+}/*# sourceMappingURL=style.css.map */
